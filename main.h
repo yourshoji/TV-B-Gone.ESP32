@@ -13,15 +13,15 @@ By Anton Grimpelhuber (anton.grimpelhuber@gmail.com)
 
 // What pins do what
 #define LED 2 //LED indicator pin (built-in LED)
-#define IRLED 14        //the IR sender LED / D5 on wemos D1 mini
-#define TRIGGER 12       //the button pin / D6 on wemos D1 mini
-#define REGIONSWITCH 5  //HIGH (1) = NA, LOW (0) = EU; Pin 5 / D1 (REGIONSWITCH) is HIGH (via in input pullup resistor) for North America, or you (the user) must wire it to ground to set the codes for Europe.
+#define IRLED 13        //the IR sender LED / D5 on wemos D1 mini
+#define TRIGGER 14       //the button pin / D6 on wemos D1 mini
+// #define REGIONSWITCH 27  //HIGH (1) = NA, LOW (0) = EU; Pin 5 / D1 (REGIONSWITCH) is HIGH (via in input pullup resistor) for North America, or you (the user) must wire it to ground to set the codes for Europe.
 
 // Lets us calculate the size of the NA/EU databases
 #define NUM_ELEM(x) (sizeof (x) / sizeof (*(x)));
 
 // set define to 0 to turn off debug output
-#define DEBUG 0
+#define DEBUG 1
 #define DEBUGP(x) if (DEBUG == 1) { x ; }
 
 // Shortcut to insert single, non-optimized-out nop
