@@ -42,8 +42,7 @@ All modifications in this fork are my own.
 ## Hardware
 
 **Circuit Diagram:**  
-![Circuit Diagram](path/to/your-diagram.png)  
-*(Replace the path with your diagram image)*  
+<img src="assets/img/circuit%20diagram.png" width="750">
 
 **Pin Connections:**  
 
@@ -68,9 +67,15 @@ Circuit is soldered onto a perfboard with 22 AWG wires connection.
 2. Press the trigger switch to start sending IR codes.  
 3. All codes are sent in ~68 seconds.  
 
-**Optional:** Include photos of the working setup for reference:  
-![Working Setup](path/to/photo.png)  
-*(Replace with your actual photo path)*
+<p align="center">
+  <img src="assets/img/front_img.jpg" width="300">
+  <img src="assets/img/back_img.jpg" width="300">
+</p>
+
+<p align="center">
+  <img src="assets/img/testing_gif.gif" width="250">
+</p>
+
 
 ---
 
