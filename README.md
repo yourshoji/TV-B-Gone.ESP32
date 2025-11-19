@@ -41,8 +41,13 @@ All modifications in this fork are my own.
 
 ## Hardware
 
-**Circuit Diagram:**  
-<img src="assets/img/circuit%20diagram.png" width="750">
+
+<p align="center">
+  <strong> Circuit Diagram: </strong>
+  <br>
+  <br>
+  <img src="assets/img/circuit%20diagram.png" width="750">
+</p>
 
 **Pin Connections:**  
 
@@ -68,14 +73,29 @@ Circuit is soldered onto a perfboard with 22 AWG wires connection.
 3. All codes are sent in ~68 seconds.  
 
 <p align="center">
-  <img src="assets/img/front_img.jpg" width="300">
-  <img src="assets/img/back_img.jpg" width="300">
+  <img src="assets/img/front_img.jpg" width="400">
+  <img src="assets/img/back_img.jpg" width="400">
 </p>
 
 <p align="center">
-  <img src="assets/img/testing_gif.gif" width="250">
+  <img src="assets/img/testing_gif.gif" width="350">
 </p>
 
+<br>
+<br>
+
+<p align="center">
+  <strong> PCB Schematic Diagram: </strong>
+  <br>
+  <br>
+  <img src="assets/img/pcb_diagram.png" width="750">
+  <img src="assets/img/pcb.png" width="750">
+</p>
+
+<p align="center">
+  <img src="assets/img/pcb_model_f.png" width="500">
+  <img src="assets/img/pcb_model_b.png" width="500">
+</p>
 
 ---
 
